@@ -24,7 +24,9 @@ export default function Modals() {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <img className="img-fluid rounded mb-5" src="./project1.png" alt="nguyen+ movie app" />
+                                    <a target="_blank" href="https://nguyen-plus-movie.netlify.com/">
+                                    <img className="img-fluid rounded mb-5" src="./project1.png" alt="nguyen+ movie app"
+                                     /></a>
                                     {/* <!-- Portfolio Modal - Text--> */}
                                     <p className="mb-5">
                                         My built-from-scratch React-JS site that utilizes API from movieDB.com. 
@@ -35,7 +37,8 @@ export default function Modals() {
                                     <div>Responsive</div>
                                     <div>Design & User Interface</div>
                                     </p>
-                                    <a className="btn btn-primary" target="_blank" href="https://nguyen-plus-movie.netlify.com/">Go to site</a>
+                                    <a className="btn btn-primary mr-2" target="_blank" href="https://nguyen-plus-movie.netlify.com/">Website</a>
+                                    <a className="btn btn-success" target="_blank" href="https://github.com/nnguyen150468/movieApp">Github</a>
                                 </div>
                             </div>
                         </div>
@@ -63,18 +66,23 @@ export default function Modals() {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
+                                    <a target="_blank" href="https://group2-twitter-clone.netlify.com/">
                                     <img className="img-fluid rounded mb-5" src="./project2.png" alt="twitter clone" />
+                                    </a>
                                     {/* <!-- Portfolio Modal - Text--> */}
                                     <p className="mb-5">
                                         Group project. I was the scrum master and designed the tweet, retweet, comment, hashtag and word 
                                         limit functions. I also composed and organized the final codes as well as strategized and led the team using git to ensure
-                                        least amount of conflicts. 
+                                        least amount of conflicts. I updated the app with an online mock API deployed to Heroku after
+                                        I learned the basic of Heroku.
                                         <div className="mt-2">Vanilla Javascript</div>
                                     <div>Async/Await</div>
                                     <div>Responsive</div>
                                     <div>Git</div>
+                                    <div>Heroku</div>
                                     </p>
-                                    <a className="btn btn-primary" target="_blank" href="https://group2-twitter-clone.netlify.com/">Go to site</a>
+                                    <a className="btn btn-primary mr-2" target="_blank" href="https://group2-twitter-clone.netlify.com/">Website</a>
+                                    <a className="btn btn-success" target="_blank" href="https://github.com/nnguyen150468/twitterClone">Github</a>
                                 </div>
                             </div>
                         </div>
@@ -109,13 +117,14 @@ export default function Modals() {
                                         and assisted everyone with coding. Features include searching for Github repositories, looking
                                         up said repository's list of issues and viewing individual issues. User can also
                                         create new issues and comment on existing issues, and they all would be posted to
-                                        the Github API and visible to everyone. 
+                                        the Github API and visible to everyone. Here I redid my github page to practice React and Router 
+                                        (that I just learned).
                                         <div className="mt-2">ReactJS</div>
                                     <div>React Router</div>
                                     <div>Async/Await</div>
                                     <div>Git</div>
                                     </p>
-                                    <a className="btn btn-primary" target="_blank" href="#">Go to site</a>
+                                    <a className="btn btn-primary" target="_blank" href="https://github.com/nnguyen150468/solo-github-issue">Github</a>
                                 </div>
                             </div>
                         </div>
@@ -143,17 +152,20 @@ export default function Modals() {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
+                                    <a target="_blank" href="https://nguyen-bug-catcher-game.netlify.com/">
                                     <img className="img-fluid rounded mb-5" src="./project4.png" alt="game bug catcher" />
+                                    </a>
                                     {/* <!-- Portfolio Modal - Text--> */}
                                     <p className="mb-5">
                                         First game I ever made using HTML Canvas. This was one of the most challenging assignments
                                         I've ever had as it required a solid understanding of JavaScript and computational thinking.
-                                        <div className="mt-2">ReactJS</div>
-                                    <div>React Router</div>
-                                    <div>Async/Await</div>
+                                        <div className="mt-2">HTML5 Canvas</div>
+                                    <div>Vanilla JavaScript</div>
+                                    <div>Design and User Effect</div>
                                     <div>Git</div>
                                     </p>
-                                    <a className="btn btn-primary" target="_blank" href="https://nguyen-bug-catcher-game.netlify.com/">Go to site</a>
+                                    <a className="btn btn-primary mr-2" target="_blank" href="https://nguyen-bug-catcher-game.netlify.com/">Website</a>
+                                    <a className="btn btn-success" target="_blank" href="https://github.com/nnguyen150468/bugCatcherGame">Github</a>
                                 </div>
                             </div>
                         </div>

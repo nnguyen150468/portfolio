@@ -22,6 +22,7 @@ export default function Portfolio() {
                         </div>
                         <img className="img-fluid" src="./project1.png" alt="nguyen+" />
                     </div>
+                    <h5 className="text-center mt-3">NGUYEN+ Movie App</h5>
                 </div>
                 {/* <!-- Portfolio Item 2--> */}
                 <div className="col-md-6 mb-5">
@@ -31,6 +32,7 @@ export default function Portfolio() {
                         </div>
                         <img className="img-fluid" src="./project2.png" alt="" />
                     </div>
+                    <h5 className="text-center mt-3">Twitter Clone</h5>
                 </div>
                 </div>
                 {/* <!-- Portfolio Item 3--> */}
@@ -42,6 +44,7 @@ export default function Portfolio() {
                         </div>
                         <img className="img-fluid" src="./project3.png" alt="" />
                     </div>
+                    <h5 className="text-center mt-3">Github Issues</h5>
                 </div>
                 {/* <!-- Portfolio Item 4--> */}
                 <div className="col-md-6 mb-5 mb-lg-0">
@@ -51,6 +54,7 @@ export default function Portfolio() {
                         </div>
                         <img className="img-fluid" src="./project4.png" alt="" />
                     </div>
+                    <h5 className="text-center mt-3">BugCatcher Game</h5>
                 </div>
             </div>
         </div>
