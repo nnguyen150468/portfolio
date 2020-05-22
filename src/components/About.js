@@ -16,11 +16,11 @@ export default function About() {
                 {/* <!-- About Section Content--> */}
                 <div className="row">
                     <div className="col-lg-4 ml-auto"><p className="lead">
-                        An artist with strong analytical skills, I find the perfect
-                        medium as a full-stack developer. 
+                        An artist-turned-engineer, Nguyen utitlizes his acute sense of style and solid logical thinking to create attractive website applications that capture and maintain user's attention. 
+                        {/* He believes the front-end <italic>is</italic> the face of the business and determines whether a company seems trustworthy and professional to customers. */}
                         </p></div>
-                    <div className="col-lg-4 mr-auto"><p className="lead">I am effective in both teamwork
-                    and independent work, with solid interpersonal and research skills.
+                    <div className="col-lg-4 mr-auto"><p className="lead">Having worked at a mega company like Walt Disney, Nguyen is highly effective in both teamwork
+                    and independent work. He is known for being flexible, hardworking and a fast learner. 
                         
                     </p></div>
                 </div>
@@ -28,15 +28,16 @@ export default function About() {
                 <div className="row mt-5">
                     <div className="col-lg-4 ml-auto"><p className="lead">
                         <div>HTML, CSS  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div>Bootstrap <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div>JavaScript <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-
+                        <div>Bootstrap <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <div>Python <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <div>NoSQL MongoDB  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
 
 
                         </p></div>
                     <div className="col-lg-4 mr-auto"><p className="lead">
-                        <div>ReactJS <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div>Python <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <div>JavaScript <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <div>ReactJS <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <div>NodeJS <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <div>Git <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                     </p></div>
                 </div>
