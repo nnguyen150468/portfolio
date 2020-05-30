@@ -17,8 +17,11 @@ export default function Home() {
     return (
         <div>
             <Header />
+            
             <Thumbnail />
+            
             <Skills />
+        
             <Portfolio />
             <About />
             {/* <Contact /> */}

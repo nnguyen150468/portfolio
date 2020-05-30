@@ -1,5 +1,6 @@
 import React from 'react'
-import ProgressBar from 'react-bootstrap/ProgressBar'
+import ProgressBar from 'react-animated-progress-bar';
+
 
 export default function Skills() {
     // const progressBar = document.getElementsByClassName('progress-bar')[0]
@@ -55,23 +56,64 @@ export default function Skills() {
                 </div>
                 {/* <!-- Contact Section Form--> */}
                 <div className="row">
-                    <div className="skill-bars progress-bar mb-4 mr-3 html" 
+                <div className="left col-md-6 col-sm-12">
+                    <div className="skill-bars mb-4 mr-3 html" 
                     data-label="HTML"></div>
-                    <div className="skill-bars progress-bar mb-4 mr-3 css" 
+                    <div className="skill-bars mb-4 mr-3 css" 
                     data-label="CSS"></div>
-                    <div className="skill-bars progress-bar mb-4 mr-3 bootstrap" 
+                    <div className="skill-bars mb-4 mr-3 bootstrap" 
                     data-label="Bootstrap"></div>
-                    <div className="skill-bars progress-bar mb-4 mr-3 javascript"
+                    <div className="skill-bars mb-4 mr-3 javascript"
                     data-label="JavaScript"></div>
-                    <div className="skill-bars progress-bar mb-4 mr-3 reactjs"
+                </div>
+                <div className="right col-md-6 col-sm-12">
+                    <div className="skill-bars mb-4 mr-3 reactjs"
                     data-label="ReactJS"></div>
-                    <div className="skill-bars progress-bar mb-4 mr-3 nodejs"
+                    <div className="skill-bars mb-4 mr-3 nodejs"
                     data-label="NodeJS"></div>
-                    <div className="skill-bars progress-bar mb-4 mr-3 mongodb"
+                    <div className="skill-bars mb-4 mr-3 mongodb"
                     data-label="MongoDB NoSQL"></div>
-                    <div className="skill-bars progress-bar mb-4 mr-3 git"
+                    <div className="skill-bars mb-4 mr-3 git"
                     data-label="Git"></div>
                     {/* {skills.map(el => <ProgressBar style={{width: "80%", marginBottom: "1em"}} now={el.level} label={`${el.name}`} />)} */}
+                </div>
+                </div>
+                <div className="d-flex justify-content-around pie-chart">
+                <div className="text-center">
+                    <ProgressBar 
+                    // hollowBackgroundColor="black"
+                    width="500" 
+                    fontColor="gray"
+                    trackWidth="18" 
+                    percentage="99" />
+                    English
+                </div>
+                <div className="text-center">
+                    <ProgressBar 
+                    // hollowBackgroundColor="black"
+                    width="500" 
+                    fontColor="gray"
+                    trackWidth="18" 
+                    percentage="99" />
+                    Vietnamese
+                </div>
+                <div className=" text-center">
+                <ProgressBar 
+                    width="500" 
+                    fontColor="gray"
+                    trackWidth="18" 
+                    percentage="93" />
+                    Teamwork
+                    </div>
+                    <div className="text-center">
+                <ProgressBar 
+                    width="500" 
+                    fontColor="gray"
+                    trackWidth="18" 
+                    percentage="94" />
+                    Communication
+            </div>
+            
                 </div>
             </div>
         </section>

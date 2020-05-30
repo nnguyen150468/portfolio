@@ -4960,15 +4960,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .progress-bar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
-  color: #fff;
-  text-align: center;
-  white-space: nowrap;
-  background-color: #dc3534;
-  transition: width 0.6s ease;
+  background-color: transparent;
 }
 @media (prefers-reduced-motion: reduce) {
   .progress-bar {
@@ -10222,7 +10214,7 @@ form .row:first-child .floating-label-form-group {
 
 .skill-bars {
   position: relative;
-  width: 48%;
+  width: 100%;
   height: 3em;
   background-color: #111;
   border-radius: 1.5em;
@@ -10363,4 +10355,9 @@ form .row:first-child .floating-label-form-group {
   100% {
     width: 90%
   }
+}
+
+.pie-chart {
+  font-size: 1.5em;
+  font-weight: bold
 }
