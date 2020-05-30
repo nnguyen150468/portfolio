@@ -25,22 +25,6 @@ export default function About() {
                     </p></div>
                 </div>
                 {/* <!-- About Section Button--> */}
-                <div className="row mt-5">
-                    <div className="col-lg-4 ml-auto"><p className="lead">
-                        <div>HTML, CSS  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div>Bootstrap <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div>Python <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div>NoSQL MongoDB  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-
-
-                        </p></div>
-                    <div className="col-lg-4 mr-auto"><p className="lead">
-                        <div>JavaScript <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div>ReactJS <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div>NodeJS <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div>Git <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    </p></div>
-                </div>
             </div>
         </section>
     )
