@@ -13,7 +13,7 @@ export default function Portfolio() {
                     <div className="divider-custom-line"></div>
                 </div>
                 {/* <!-- Portfolio Grid Items--> */}
-                <div className="row">
+                <div className="row text-center">
                     {/* <!-- Portfolio Item 1--> */}
                     <div className="col-md-6 mb-5">
                         <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
