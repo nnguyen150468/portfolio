@@ -66,7 +66,7 @@ export default function Portfolio() {
                             </div>
                             <img className="img-fluid" src="./project5.png" alt="" />
                         </div>
-                        <h5 className="text-center mt-3">Github Issues</h5>
+                        <h5 className="text-center mt-3">Teen-Lóng</h5>
                     </div>
                     {/* <!-- Portfolio Item 6--> */}
                     <div className="col-md-6 mb-5 mb-lg-0">

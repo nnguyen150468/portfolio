@@ -200,7 +200,7 @@ export default function Modals() {
                             <div className="row justify-content-center">
                                 <div className="col-lg-8">
                                     {/* <!-- Portfolio Modal - Title--> */}
-                                    <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Github Issues</h2>
+                                    <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Teen-Lóng</h2>
                                     {/* <!-- Icon Divider--> */}
                                     <div className="divider-custom">
                                         <div className="divider-custom-line"></div>
@@ -208,23 +208,26 @@ export default function Modals() {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <img className="img-fluid rounded mb-5" src="./project5.png" alt="github issues" />
+                                    <a target="_blank" href="https://teen-long.netlify.app/">
+                                    <img className="img-fluid rounded mb-5" src="./project5.png" alt="teen-long" />
+                                    </a>
                                     {/* <!-- Portfolio Modal - Text--> */}
                                     <p className="mb-5">
-                                        <strong>Group</strong> project. I acted as the Product Owner, leading the team in visualizing the working process
-                                        and assisted everyone with coding. Features include searching for Github repositories, looking
-                                        up said repository's list of issues and viewing individual issues, using <strong>Github REST API</strong>. User can also
-                                        create new issues and comment on existing issues, and they all would be posted to
-                                        the Github API and visible to everyone.
+
+                                        A <strong>full-stack,</strong> open dictionary for Vietnamese slangs where users contribute and vote for the most popular definition of contemporary Vietnamese slangs.
+                                        User can sign in with Google or Facebook, create new word, search and filter words by first character, vote or downvote definitions they don't like. Database is hosted on MongoDB.
 
                                     <div className="mt-4">
                                         <div className="badge badge-pill badge-danger mr-1">ReactJS</div>
                                         <div className="badge badge-pill badge-danger mr-1">React Router</div>
-                                        <div className="badge badge-pill badge-danger mr-1">Async/Await</div>
-                                        <div className="badge badge-pill badge-danger mr-1">Git</div>
+                                        <div className="badge badge-pill badge-success mr-1">NodeJS</div>
+                                        <div className="badge badge-pill badge-success mr-1">Mongoose</div>
+                                        <div className="badge badge-pill badge-success mr-1">MongoDB NoSQL</div>
+                                        <div className="badge badge-pill badge-warning mr-1">Heroku</div>
                                     </div>
                                     </p>
-                                    <a className="btn btn-primary" target="_blank" href="https://github.com/nnguyen150468/solo-github-issue">Github</a>
+                                    <a className="btn btn-primary mr-2" hreftarget="_blank" href="https://teen-long.netlify.app/">Website</a>
+                                    <a className="btn btn-success" target="_blank" href="https://github.com/nnguyen150468/teenLong-backend">Github</a>
                                 </div>
                             </div>
                         </div>
