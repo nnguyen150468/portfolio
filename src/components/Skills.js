@@ -86,7 +86,7 @@ export default function Skills() {
                     fontColor="gray"
                     trackWidth="18" 
                     percentage="99" />
-                    English
+                    Time Management
                 </div>
                 <div className="text-center">
                     <ProgressBar 
@@ -95,7 +95,7 @@ export default function Skills() {
                     fontColor="gray"
                     trackWidth="18" 
                     percentage="99" />
-                    Vietnamese
+                    Building Connections
                 </div>
                 <div className=" text-center">
                 <ProgressBar 

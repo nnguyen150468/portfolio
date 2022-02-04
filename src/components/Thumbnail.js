@@ -17,7 +17,7 @@ export default function Thumbnail() {
             </div>
             
             <p className="masthead-subheading font-weight-light mb-0">Artist - Software Engineer</p>
-            <a id="view-resume" className="masthead-subheading font-weight-light mb-0 mt-5 p-2" href="https://drive.google.com/file/d/1hHGkE4W4Lt-d1F7VTJkXLsvea8q_tmr2/view?fbclid=IwAR2JLhBbPWtz_FZxmBfdF9BhwcfhA3qiNza4D_NNz8VzVhaCcYaX3NW-PYQ" target="_blank"
+            <a id="view-resume" className="masthead-subheading font-weight-light mb-0 mt-5 p-2" href="https://drive.google.com/file/d/1M-q75aZHuCC73nuRK1BNt5-qpBdAnF7I/view?usp=sharing" target="_blank"
             style={{ color:"white", border: "4px solid white"}}>
                 View Resume</a>
         </div>

@@ -11,7 +11,7 @@ export default class Footer extends Component {
                     
                     <div className="col-lg-4 mb-5 mb-lg-0">
                         <h4 className="text-uppercase mb-4">Contact Me</h4>
-                        <p className="lead mb-0">n.dinhnguyen95@gmail.com <br/> 12 Ton Dan, Ward 13, District 4<br />Ho Chi Minh, Vietnam</p>
+                        <p className="lead mb-0">n.dinhnguyen95@gmail.com <br/> Boston, MA<br />USA</p>
                     </div>
                     
                     <div className="col-lg-4 mb-5 mb-lg-0">
