@@ -1,6 +1,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const MOVIE_URL = "https://nguyen-plus-movie.netlify.com/"
+const CHATTIE_URL = "https://nguyen-chattie.netlify.app/"
+const TEEN_LONG_URL ="https://teen-long.netlify.app/"
+const MEME_MAKER_URL = 'https://nguyen-meme-maker.onrender.com/'
+const TWITTER_URL = "https://group2-twitter-clone.netlify.com/"
+const BUG_CATCHER_URL = "https://nguyen-bug-catcher-game.netlify.com/"
 export default function Modals() {
     return (
         <div>
@@ -24,7 +30,7 @@ export default function Modals() {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <a target="_blank" href="https://nguyen-plus-movie.netlify.com/">
+                                    <a target="_blank" href={MOVIE_URL}>
                                     <img className="img-fluid rounded mb-5" src="./project1.png" alt="nguyen+ movie app"
                                      /></a>
                                     {/* <!-- Portfolio Modal - Text--> */}
@@ -40,7 +46,7 @@ export default function Modals() {
                                     <div className="badge badge-pill badge-danger mr-1">Design & User Interface</div>
                                     </div>
                                     </p>
-                                    <a className="btn btn-primary mr-2" target="_blank" href="https://nguyen-plus-movie.netlify.com/">Website</a>
+                                    <a className="btn btn-primary mr-2" target="_blank" href={MOVIE_URL}>Website</a>
                                     <a className="btn btn-success" target="_blank" href="https://github.com/nnguyen150468/movieApp">Github</a>
                                 </div>
                             </div>
@@ -69,7 +75,7 @@ export default function Modals() {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <a target="_blank" href="https://nguyen-chattie.netlify.app/">
+                                    <a target="_blank" href={CHATTIE_URL}>
                                     <img className="img-fluid rounded mb-5" src="./project2.png" alt="game bug catcher" />
                                     </a>
                                     {/* <!-- Portfolio Modal - Text--> */}
@@ -87,7 +93,7 @@ export default function Modals() {
                                         <div className="badge badge-pill badge-danger mr-1">ReactJS</div>
                                     </div>
                                     </p>  
-                                    <a className="btn btn-primary mr-2" target="_blank" href="https://nguyen-chattie.netlify.app/">Website</a>
+                                    <a className="btn btn-primary mr-2" target="_blank" href={CHATTIE_URL}>Website</a>
                                     <a className="btn btn-success" target="_blank" href="https://github.com/nnguyen150468/chat-backend-new">Github</a>
                                 </div>
                             </div>
@@ -116,7 +122,7 @@ export default function Modals() {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <a target="_blank" href="https://nguyen-meme-maker.onrender.com/">
+                                    <a target="_blank" href={MEME_MAKER_URL}>
                                     <img className="img-fluid rounded mb-5" src="./project3.png" alt="github issues" />
                                     </a>
                                     {/* <!-- Portfolio Modal - Text--> */}
@@ -133,7 +139,7 @@ export default function Modals() {
                                         <div className="badge badge-pill badge-warning mr-1">Backend server on Heroku</div>
                                     </div>
                                     </p>
-                                    <a className="btn btn-primary mr-2" target="_blank" href="https://nguyen-meme-maker.herokuapp.com/">Website</a>
+                                    <a className="btn btn-primary mr-2" target="_blank" href={MEME_MAKER_URL}>Website</a>
                                     <a className="btn btn-success" target="_blank" href="https://github.com/nnguyen150468/meme-maker">Github</a>
                                 </div>
                             </div>
@@ -162,7 +168,7 @@ export default function Modals() {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <a target="_blank" href="https://group2-twitter-clone.netlify.com/">
+                                    <a target="_blank" href={TWITTER_URL}>
                                     <img className="img-fluid rounded mb-5" src="./project4.png" alt="twitter clone" />
                                     </a>
                                     {/* <!-- Portfolio Modal - Text--> */}
@@ -179,7 +185,7 @@ export default function Modals() {
                                     <div className="badge badge-pill badge-warning mr-1">Heroku</div>
                                     </div>   
                                     </p>
-                                    <a className="btn btn-primary mr-2" target="_blank" href="https://group2-twitter-clone.netlify.com/">Website</a>
+                                    <a className="btn btn-primary mr-2" target="_blank" href={TWITTER_URL}>Website</a>
                                     <a className="btn btn-success" target="_blank" href="https://github.com/nnguyen150468/twitterClone">Github</a>
                                 </div>
                             </div>
@@ -208,7 +214,7 @@ export default function Modals() {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <a target="_blank" href="https://teen-long.netlify.app/">
+                                    <a target="_blank" href={TEEN_LONG_URL}>
                                     <img className="img-fluid rounded mb-5" src="./project5.png" alt="teen-long" />
                                     </a>
                                     {/* <!-- Portfolio Modal - Text--> */}
@@ -226,7 +232,7 @@ export default function Modals() {
                                         <div className="badge badge-pill badge-warning mr-1">Heroku</div>
                                     </div>
                                     </p>
-                                    <a className="btn btn-primary mr-2" hreftarget="_blank" href="https://teen-long.netlify.app/">Website</a>
+                                    <a className="btn btn-primary mr-2" hreftarget="_blank" href={TEEN_LONG_URL}>Website</a>
                                     <a className="btn btn-success" target="_blank" href="https://github.com/nnguyen150468/teenLong-backend">Github</a>
                                 </div>
                             </div>
@@ -255,7 +261,7 @@ export default function Modals() {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <a target="_blank" href="https://nguyen-bug-catcher-game.netlify.com/">
+                                    <a target="_blank" href={BUG_CATCHER_URL}>
                                     <img className="img-fluid rounded mb-5" src="./project6.png" alt="game bug catcher" />
                                     </a>
                                     {/* <!-- Portfolio Modal - Text--> */}
@@ -270,7 +276,7 @@ export default function Modals() {
                                         <div className="badge badge-pill badge-danger mr-1">Git</div>
                                     </div>
                                     </p>
-                                    <a className="btn btn-primary mr-2" target="_blank" href="https://nguyen-bug-catcher-game.netlify.com/">Website</a>
+                                    <a className="btn btn-primary mr-2" target="_blank" href={BUG_CATCHER_URL}>Website</a>
                                     <a className="btn btn-success" target="_blank" href="https://github.com/nnguyen150468/bugCatcherGame">Github</a>
                                 </div>
                             </div>
