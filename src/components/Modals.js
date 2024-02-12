@@ -116,7 +116,7 @@ export default function Modals() {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <a target="_blank" href="https://nguyen-meme-maker.herokuapp.com/">
+                                    <a target="_blank" href="https://nguyen-meme-maker.onrender.com/">
                                     <img className="img-fluid rounded mb-5" src="./project3.png" alt="github issues" />
                                     </a>
                                     {/* <!-- Portfolio Modal - Text--> */}
