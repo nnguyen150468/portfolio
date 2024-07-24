@@ -1,12 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const MOVIE_URL = "https://nguyen-plus-movie.netlify.com/";
+const MOVIE_URL = "https://nguyen-plus-movie.netlify.app/";
 const CHATTIE_URL = "https://nguyen-chattie.netlify.app/";
 const TEEN_LONG_URL = "https://teen-long.netlify.app/";
 const MEME_MAKER_URL = "https://nguyen2-meme-maker.onrender.com/";
-const TWITTER_URL = "https://group2-twitter-clone.netlify.com/";
-const BUG_CATCHER_URL = "https://nguyen-bug-catcher-game.netlify.com/";
+const TWITTER_URL = "https://group2-twitter-clone.netlify.app/";
+const BUG_CATCHER_URL = "https://nguyen-bug-catcher-game.netlify.app/";
 export default function Modals() {
   return (
     <div>
